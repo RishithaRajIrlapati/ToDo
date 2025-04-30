@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todo.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="stats-container">
+            <div class="details">
+                <h3>Your Progress</h3>
+                <div id="progressbar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-numbers">
+                <p id="numbers">2 / 4</p> <!-- Static Numbers -->
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="New Task">
+            <button type="submit">+</button>
+        </form>
+
+        <ul class="task-list">
+            <li>
+                <label class="task-item">
+                    <input type="checkbox" class="checkbox" checked disabled>
+                    <p>Learn HTML</p>
+                </label>
+            </li>
+            <li>
+                <label class="task-item">
+                    <input type="checkbox" class="checkbox" checked disabled>
+                    <p>Learn CSS</p>
+                </label>
+            </li>
+            <li>
+                <label class="task-item">
+                    <input type="checkbox" class="checkbox" disabled>
+                    <p>Learn JavaScript</p>
+                </label>
+            </li>
+            <li>
+                <label class="task-item">
+                    <input type="checkbox" class="checkbox" disabled>
+                    <p>Build a Project</p>
+                </label>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+
